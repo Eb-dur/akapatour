@@ -1,0 +1,36 @@
+
+#bigbox{
+    width: 100%;
+    text-align: center;
+
+}
+
+body{
+    background: url(repeating.png);
+}
+
+
+#imageDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+img{
+    width: 600px;
+
+}
+.boxes{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    width: 50%;
+
+}
+
+
+#tell{
+    border: 0;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}   
